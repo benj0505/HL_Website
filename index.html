@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ms">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -310,8 +310,8 @@
     </div>
     <div class="nav-right">
       <div class="lang-toggle">
-        <button data-lang="ms" class="active" onclick="setLang('ms')">BM</button>
-        <button data-lang="en" onclick="setLang('en')">EN</button>
+        <button data-lang="ms" onclick="setLang('ms')">BM</button>
+        <button data-lang="en" class="active" onclick="setLang('en')">EN</button>
         <button data-lang="zh" onclick="setLang('zh')">中文</button>
       </div>
       <a href="https://www.facebook.com/hlnoodles/" target="_blank" style="color:#B9CBC0;display:flex;align-items:center;" aria-label="Facebook">
@@ -496,6 +496,7 @@
     });
     document.documentElement.lang = lang;
   }
+  setLang('en');
 </script>
 
 </body>
